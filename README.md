@@ -1,111 +1,64 @@
 <!-- markdownlint-disable MD033 MD041 -->
 
-<h1 align="center">🧗‍♀️ CodeClimb</h1>
+<h1 align="center">Hi, I'm Hurmat Fatima 👋</h1>
+<p align="center"><em>Aspiring Full-Stack Developer · CS Student</em></p>
 
 <p align="center">
-  <em>A gamified Data Structures & Algorithms learning platform — level up your DSA skills one climb at a time.</em>
-</p>
-
-<p align="center">
-  <a href="https://hurmat.store/codeclimb/"><strong>🔗 Live Demo</strong></a>
-</p>
-
-<p align="center">
-  <code>PHP</code> · <code>MySQL</code> · <code>Bootstrap 5.3</code> · <code>JavaScript</code>
+  📍 Learning by building — one project at a time
 </p>
 
 ---
 
-### 📖 About
+### 🧭 About Me
 
-CodeClimb turns DSA practice into a game instead of a grind. Solve problems, track your progress, and climb the leaderboard against other learners — built to make Data Structures & Algorithms feel motivating, not overwhelming.
-
----
-
-### ✨ Features
-
-- 🔐 **Secure Authentication** — signup & login with bcrypt password hashing and duplicate-email detection
-- 🔑 **Forgot Password Flow** — email-based reset via PHPMailer over Gmail SMTP
-- 💪 **Live Password Strength Check** — real-time JS feedback while creating an account
-- ✅ **Solved Questions Tracking** — every solved problem logged per user
-- 🏆 **Leaderboard** — ranks users by problems solved
-- 🎨 **Custom Dark UI** — navy, electric blue, violet & emerald theme
+- 🎓 Computer Science student, sharpening my skills in web development
+- 🧗 Currently building **CodeClimb** — a gamified DSA learning platform
+- 🔐 Currently learning **Cybersecurity**
+- 🌱 I believe in shipping real, working projects over just tutorials
+- 📫 Reach me at **fatimahurmat237@gmail.com**
+- 🌐 Portfolio: **[hurmat.store](https://hurmat.store/)**
 
 ---
 
 ### 🛠️ Tech Stack
 
-| Layer | Technology |
+**Languages**
+`C++` · `PHP` · `JavaScript` · `SQL`
+
+**Frontend**
+`HTML` · `CSS` · `Bootstrap` · `JavaScript`
+
+**Backend & Database**
+`PHP` · `Laravel` · `MySQL`
+
+**Tools**
+`Git` · `GitHub` · `VS Code` · `XAMPP` · `Composer`
+
+**Currently Learning**
+`Cybersecurity`
+
+---
+
+### 🚀 Featured Projects
+
+**🧗 [CodeClimb](https://github.com/hurmatfatima-tech/CodeClimb)**
+A gamified DSA learning platform built with PHP, MySQL & Bootstrap.
+🔗 [Live](https://hurmat.store/codeclimb/)
+
+**🌐 [Portfolio](https://github.com/hurmatfatima-tech/portfolio)**
+My personal portfolio site with a growing collection of mini projects.
+🔗 [Live](https://hurmat.store/)
+
+---
+
+### 📊 A Bit More About Me
+
+| | |
 |---|---|
-| Frontend | HTML, CSS, Bootstrap 5.3, JavaScript |
-| Backend | PHP |
-| Database | MySQL |
-| Email | PHPMailer (Gmail SMTP) |
-| Security | bcrypt password hashing |
+| 💬 Ask me about | PHP, Laravel, MySQL, Web Dev fundamentals |
+| ⚡ Fun fact | I learn best by breaking things and fixing them |
+| 🎯 Currently focused on | Turning CodeClimb into a full learning platform |
 
 ---
 
-### 🗄️ Database Schema
-
-| Table | Purpose |
-|---|---|
-| `users` | User accounts & credentials |
-| `questions` | DSA problem bank |
-| `submissions` | Every attempt a user makes |
-| `solved` | Tracks solved questions — powers the leaderboard |
-
----
-
-### ⚙️ Getting Started
-
-**Prerequisites:** PHP 7.4+, Composer, MySQL, a local server (e.g. XAMPP)
-
-```bash
-git clone https://github.com/hurmatfatima-tech/CodeClimb.git
-cd CodeClimb
-composer install
-```
-
-Import the provided `schema.sql` into MySQL, then create a `config.php` with your own credentials:
-
-```php
-define('DB_HOST', 'localhost');
-define('DB_NAME', 'codeclimb');
-define('DB_USER', 'your_db_username');
-define('DB_PASS', 'your_db_password');
-
-define('SMTP_HOST', 'smtp.gmail.com');
-define('SMTP_PORT', 587);
-define('SMTP_USER', 'your_email@gmail.com');
-define('SMTP_PASS', 'your_app_password');
-```
-
-> ⚠️ `config.php` and real credentials are excluded via `.gitignore` — never commit them.
-
-Then open `http://localhost/CodeClimb` in your browser.
-
----
-
-### 🗺️ Roadmap
-
-- [ ] Problem difficulty filters
-- [ ] Topic-wise progress tracking
-- [ ] Achievement badges for milestones
-- [ ] Hints/discussion section per question
-
----
-
-### 🤝 Contributing
-
-Issues and pull requests are welcome — feel free to open one.
-
----
-
-### 📬 Contact
-
-**Hurmat Fatima**
-📧 fatimahurmat237@gmail.com · 🌐 [hurmat.store](https://hurmat.store/) · 💻 [@hurmatfatima-tech](https://github.com/hurmatfatima-tech)
-
----
-
-<p align="center"><sub>Built with 💚 while learning to climb, one problem at a time.</sub></p>
+<p align="center"><sub>Thanks for stopping by — always open to collaboration and good ideas 💚</sub></p>
