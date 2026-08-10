@@ -1,124 +1,111 @@
-<div align="center">
+<!-- markdownlint-disable MD033 MD041 -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Hurmat%20Fatima&fontSize=55&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Aspiring%20Full-Stack%20Developer&descAlignY=55&descSize=20"/>
+<h1 align="center">🧗‍♀️ CodeClimb</h1>
 
-<a href="https://github.com/hurmatfatima-tech">
-  <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=24&duration=3000&pause=800&color=3B82F6&center=true&vCenter=true&width=600&lines=Building+CodeClimb+%E2%80%94+Gamified+DSA+Platform;PHP+%2B+Laravel+%2B+MySQL+Developer;Learning+Cybersecurity+%F0%9F%94%90;Always+Shipping+Something+New" alt="Typing SVG" />
-</a>
+<p align="center">
+  <em>A gamified Data Structures & Algorithms learning platform — level up your DSA skills one climb at a time.</em>
+</p>
 
-<br/>
+<p align="center">
+  <a href="https://hurmat.store/codeclimb/"><strong>🔗 Live Demo</strong></a>
+</p>
 
-<img src="https://komarev.com/ghpvc/?username=hurmatfatima-tech&color=3B82F6&style=flat-square&label=Profile+Views" />
-<img src="https://img.shields.io/github/followers/hurmatfatima-tech?label=Followers&style=flat-square&color=3B82F6" />
+<p align="center">
+  <code>PHP</code> · <code>MySQL</code> · <code>Bootstrap 5.3</code> · <code>JavaScript</code>
+</p>
 
-</div>
+---
 
-<br/>
+### 📖 About
 
-## 🧠 Who I Am
+CodeClimb turns DSA practice into a game instead of a grind. Solve problems, track your progress, and climb the leaderboard against other learners — built to make Data Structures & Algorithms feel motivating, not overwhelming.
 
-```typescript
-const hurmatFatima = {
-  title: "Aspiring Full-Stack Developer",
-  stack: ["C++", "PHP", "JavaScript", "SQL", "Laravel", "MySQL", "Bootstrap"],
-  launchedProjects: ["CodeClimb", "Portfolio"],
-  currentlyLearning: ["Cybersecurity"],
-  status: "Building real projects while mastering the fundamentals",
-  openTo: ["Collaboration", "Learning opportunities", "Feedback on my work"]
-};
+---
+
+### ✨ Features
+
+- 🔐 **Secure Authentication** — signup & login with bcrypt password hashing and duplicate-email detection
+- 🔑 **Forgot Password Flow** — email-based reset via PHPMailer over Gmail SMTP
+- 💪 **Live Password Strength Check** — real-time JS feedback while creating an account
+- ✅ **Solved Questions Tracking** — every solved problem logged per user
+- 🏆 **Leaderboard** — ranks users by problems solved
+- 🎨 **Custom Dark UI** — navy, electric blue, violet & emerald theme
+
+---
+
+### 🛠️ Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Frontend | HTML, CSS, Bootstrap 5.3, JavaScript |
+| Backend | PHP |
+| Database | MySQL |
+| Email | PHPMailer (Gmail SMTP) |
+| Security | bcrypt password hashing |
+
+---
+
+### 🗄️ Database Schema
+
+| Table | Purpose |
+|---|---|
+| `users` | User accounts & credentials |
+| `questions` | DSA problem bank |
+| `submissions` | Every attempt a user makes |
+| `solved` | Tracks solved questions — powers the leaderboard |
+
+---
+
+### ⚙️ Getting Started
+
+**Prerequisites:** PHP 7.4+, Composer, MySQL, a local server (e.g. XAMPP)
+
+```bash
+git clone https://github.com/hurmatfatima-tech/CodeClimb.git
+cd CodeClimb
+composer install
 ```
 
-<br/>
+Import the provided `schema.sql` into MySQL, then create a `config.php` with your own credentials:
 
-## 🚀 Featured Projects
+```php
+define('DB_HOST', 'localhost');
+define('DB_NAME', 'codeclimb');
+define('DB_USER', 'your_db_username');
+define('DB_PASS', 'your_db_password');
 
-### 🧗 CodeClimb — Gamified DSA Learning Platform
+define('SMTP_HOST', 'smtp.gmail.com');
+define('SMTP_PORT', 587);
+define('SMTP_USER', 'your_email@gmail.com');
+define('SMTP_PASS', 'your_app_password');
+```
 
-A gamified DSA learning platform built with PHP, MySQL & Bootstrap, designed to make practicing data structures and algorithms feel like a game.
+> ⚠️ `config.php` and real credentials are excluded via `.gitignore` — never commit them.
 
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=hurmatfatima-tech&repo=CodeClimb&theme=nord&border_color=3B82F6&title_color=3B82F6&text_color=e2e8f0&bg_color=0a0e1a" />
+Then open `http://localhost/CodeClimb` in your browser.
 
-| Layer      | Technology                  |
-|------------|------------------------------|
-| Frontend   | Bootstrap 5.3, JavaScript    |
-| Backend    | PHP                          |
-| Database   | MySQL                        |
-| Auth       | bcrypt password hashing      |
-| Email      | PHPMailer (Gmail SMTP)       |
+---
 
-🔗 [Live](https://hurmat.store/codeclimb/) &nbsp;|&nbsp; 💻 [Code](https://github.com/hurmatfatima-tech/CodeClimb)
+### 🗺️ Roadmap
 
-<br/>
+- [ ] Problem difficulty filters
+- [ ] Topic-wise progress tracking
+- [ ] Achievement badges for milestones
+- [ ] Hints/discussion section per question
 
-### 🌐 Portfolio — Personal Site with Mini Tasks
+---
 
-A portfolio website showcasing mini tasks and projects.
+### 🤝 Contributing
 
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=hurmatfatima-tech&repo=portfolio&theme=nord&border_color=3B82F6&title_color=3B82F6&text_color=e2e8f0&bg_color=0a0e1a" />
+Issues and pull requests are welcome — feel free to open one.
 
-| Layer      | Technology            |
-|------------|------------------------|
-| Frontend   | HTML, CSS, JavaScript |
+---
 
-🔗 [Live](https://hurmat.store/) &nbsp;|&nbsp; 💻 [Code](https://github.com/hurmatfatima-tech/portfolio)
+### 📬 Contact
 
-<br/>
+**Hurmat Fatima**
+📧 fatimahurmat237@gmail.com · 🌐 [hurmat.store](https://hurmat.store/) · 💻 [@hurmatfatima-tech](https://github.com/hurmatfatima-tech)
 
-## 🛠️ Tech Stack
+---
 
-**Languages**
-
-<img src="https://skillicons.dev/icons?i=cpp,php,js,mysql" />
-
-**Frontend**
-
-<img src="https://skillicons.dev/icons?i=html,css,bootstrap,js" />
-
-**Backend**
-
-<img src="https://skillicons.dev/icons?i=php,laravel,mysql" />
-
-**Dev Tools**
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode" />
-
-<img src="https://img.shields.io/badge/XAMPP-FB7A24?style=flat-square&logo=xampp&logoColor=white" />
-<img src="https://img.shields.io/badge/Composer-885630?style=flat-square&logo=composer&logoColor=white" />
-
-**Currently Learning**
-
-<img src="https://img.shields.io/badge/Cybersecurity-3B82F6?style=flat-square&logo=hackthebox&logoColor=white" />
-
-<br/>
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=hurmatfatima-tech&show_icons=true&theme=nord&border_color=3B82F6&title_color=3B82F6&icon_color=3B82F6&text_color=e2e8f0&bg_color=0a0e1a" height="180"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hurmatfatima-tech&layout=compact&theme=nord&border_color=3B82F6&title_color=3B82F6&text_color=e2e8f0&bg_color=0a0e1a" height="180"/>
-
-<img src="https://streak-stats.demolab.com/?user=hurmatfatima-tech&theme=nord&border=3B82F6&ring=3B82F6&fire=3B82F6&currStreakLabel=3B82F6" />
-
-<img src="https://github-profile-trophy.vercel.app/?username=hurmatfatima-tech&theme=nord&no-frame=true&no-bg=true&margin-w=10" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=hurmatfatima-tech&theme=react-dark&color=3B82F6&line=3B82F6&point=e2e8f0&area=true&hide_border=true" />
-
-</div>
-
-<br/>
-
-## 🔗 Connect With Me
-
-<div align="center">
-
-<a href="mailto:fatimahurmat237@gmail.com">
-  <img src="https://img.shields.io/badge/Email-3B82F6?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-<a href="https://hurmat.store/">
-  <img src="https://img.shields.io/badge/Portfolio-3B82F6?style=for-the-badge&logo=googlechrome&logoColor=white" />
-</a>
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer"/>
+<p align="center"><sub>Built with 💚 while learning to climb, one problem at a time.</sub></p>
