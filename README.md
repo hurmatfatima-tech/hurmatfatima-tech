@@ -4,7 +4,7 @@
 
 ### CS Student & Aspiring Full-Stack Developer
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=6B8F71&center=true&vCenter=true&width=600&lines=Building+CodeClimb+%F0%9F%9A%80;Gamifying+DSA+Learning;PHP+%7C+Laravel+%7C+MySQL+Developer;Always+Learning%2C+Always+Building" alt="Typing SVG" /></a>
+*Building CodeClimb 🚀 &nbsp;|&nbsp; Gamifying DSA Learning &nbsp;|&nbsp; PHP • Laravel • MySQL Developer*
 
 ![Open to Work](https://img.shields.io/badge/Open%20to%20Work-6B8F71?style=for-the-badge&logo=github&logoColor=white)
 
@@ -70,10 +70,9 @@ const hurmatFatima = {
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=hurmatfatima-tech&theme=nord&border=6b8f71&background=0d1117&ring=6b8f71&fire=6b8f71&currStreakLabel=6b8f71" width="70%"/>
-
 <img src="https://img.shields.io/github/stars/hurmatfatima-tech?style=for-the-badge&color=6b8f71&label=Total%20Stars" />
 <img src="https://img.shields.io/github/last-commit/hurmatfatima-tech/codeclimb?style=for-the-badge&color=6b8f71&label=Last%20Commit" />
+<img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&color=6b8f71&label=Repos&query=public_repos&url=https://api.github.com/users/hurmatfatima-tech" />
 
 </div>
 
