@@ -1,64 +1,95 @@
-<!-- markdownlint-disable MD033 MD041 -->
+<div align="center">
 
-<h1 align="center">Hi, I'm Hurmat Fatima 👋</h1>
-<p align="center"><em>Aspiring Full-Stack Developer · CS Student</em></p>
+# 👋 Hi, I'm Hurmat Fatima
 
-<p align="center">
-  📍 Learning by building — one project at a time
-</p>
+### CS Student & Aspiring Full-Stack Developer
+
+*Building CodeClimb 🚀 &nbsp;|&nbsp; Gamifying DSA Learning &nbsp;|&nbsp; PHP • Laravel • MySQL Developer*
+
+![Open to Work](https://img.shields.io/badge/Open%20to%20Work-6B8F71?style=for-the-badge&logo=github&logoColor=white)
+
+<img src="https://komarev.com/ghpvc/?username=hurmatfatima-tech&color=6b8f71&style=flat" alt="Profile Views"/>
+<img src="https://img.shields.io/github/followers/hurmatfatima-tech?label=Followers&style=flat&color=6b8f71" alt="Followers"/>
+
+</div>
 
 ---
 
-### 🧭 About Me
+### 🙋‍♀️ Who I Am
 
-- 🎓 Computer Science student, sharpening my skills in web development
-- 🧗 Currently building **CodeClimb** — a gamified DSA learning platform
-- 🔐 Currently learning **Cybersecurity**
-- 🌱 I believe in shipping real, working projects over just tutorials
-- 📫 Reach me at **fatimahurmat237@gmail.com**
-- 🌐 Portfolio: **[hurmat.store](https://hurmat.store/)**
+```typescript
+const hurmatFatima = {
+  title: "CS Student & Aspiring Full-Stack Developer",
+  stack: ["PHP", "Laravel", "MySQL", "JavaScript", "Python", "HTML", "Bootstrap", "C++", "Git & GitHub"],
+  launchedProjects: ["CodeClimb - Gamified DSA Learning Platform"],
+  certifications: [],
+  status: "Building & learning every day 🌱",
+  openTo: ["Full-Stack Development roles", "Collaborations", "Internships"],
+};
+```
+
+---
+
+### 🌟 Featured Projects
+
+#### CodeClimb
+
+> A gamified DSA learning platform built to make mastering data structures & algorithms engaging and interactive.
+
+| Layer      | Technology         |
+|------------|---------------------|
+| Frontend   | HTML, Bootstrap, JavaScript |
+| Backend    | PHP                 |
+| Database   | MySQL               |
+
+🔗 [Live Demo](https://hurmat.store/codeclimb/) &nbsp;|&nbsp; 💻 [Source Code](https://github.com/hurmatfatima-tech/codeclimb)
 
 ---
 
 ### 🛠️ Tech Stack
 
 **Languages**
-`C++` · `PHP` · `JavaScript` · `SQL`
+
+![Languages](https://skillicons.dev/icons?i=php,js,python,cpp,html)
 
 **Frontend**
-`HTML` · `CSS` · `Bootstrap` · `JavaScript`
 
-**Backend & Database**
-`PHP` · `Laravel` · `MySQL`
+![Frontend](https://skillicons.dev/icons?i=html,bootstrap,js)
 
-**Tools**
-`Git` · `GitHub` · `VS Code` · `XAMPP` · `Composer`
+**Backend & Infra**
 
-**Currently Learning**
-`Cybersecurity`
+![Backend](https://skillicons.dev/icons?i=laravel,mysql)
 
----
+**Dev Tools**
 
-### 🚀 Featured Projects
-
-**🧗 [CodeClimb](https://github.com/hurmatfatima-tech/CodeClimb)**
-A gamified DSA learning platform built with PHP, MySQL & Bootstrap.
-🔗 [Live](https://hurmat.store/codeclimb/)
-
-**🌐 [Portfolio](https://github.com/hurmatfatima-tech/portfolio)**
-My personal portfolio site with a growing collection of mini projects.
-🔗 [Live](https://hurmat.store/)
+![Dev Tools](https://skillicons.dev/icons?i=git,github)
 
 ---
 
-### 📊 A Bit More About Me
+### 📊 GitHub Stats
 
-| | |
-|---|---|
-| 💬 Ask me about | PHP, Laravel, MySQL, Web Dev fundamentals |
-| ⚡ Fun fact | I learn best by breaking things and fixing them |
-| 🎯 Currently focused on | Turning CodeClimb into a full learning platform |
+<div align="center">
+
+<img src="https://img.shields.io/github/stars/hurmatfatima-tech?style=for-the-badge&color=6b8f71&label=Total%20Stars" />
+<img src="https://img.shields.io/github/last-commit/hurmatfatima-tech/codeclimb?style=for-the-badge&color=6b8f71&label=Last%20Commit" />
+<img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&color=6b8f71&label=Repos&query=public_repos&url=https://api.github.com/users/hurmatfatima-tech" />
+
+</div>
 
 ---
 
-<p align="center"><sub>Thanks for stopping by — always open to collaboration and good ideas 💚</sub></p>
+### 🔗 Connect With Me
+
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-6B8F71?style=for-the-badge&logo=googlechrome&logoColor=white)](https://hurmat.store)
+
+</div>
+
+---
+
+<div align="center">
+
+**Thanks for stopping by! 🌱**
+
+</div>
